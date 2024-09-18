@@ -27,7 +27,7 @@ name: English
 30: changelog
 
 // settings
-40: subs path:
+40: local subs path:
 
 // update_database
 50: start updating database
@@ -36,7 +36,7 @@ name: English
 53: Log
 54: start updating database...
 55: downloading database file from remote server...
-56: subtitles local path not found
+56: cannot find any subtitle in local path
 57: manually stop updating database
 58: update database done
 59: update database failed

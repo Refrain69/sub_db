@@ -43,6 +43,7 @@
             // 
             // listView_Log
             // 
+            this.listView_Log.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
             this.listView_Log.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -64,12 +65,12 @@
             // columnHeader_Time
             // 
             this.columnHeader_Time.Text = "时间";
-            this.columnHeader_Time.Width = 122;
+            this.columnHeader_Time.Width = 350;
             // 
             // columnHeader_Log
             // 
             this.columnHeader_Log.Text = "日志";
-            this.columnHeader_Log.Width = 491;
+            this.columnHeader_Log.Width = 959;
             // 
             // label_Log
             // 

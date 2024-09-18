@@ -152,11 +152,6 @@ namespace sub_db
                 wc.CancelAsync();
                 return;
             }
-            //if (TotalBytes == -1)
-            //{
-            //    TotalBytes = e.TotalBytesToReceive;
-            //    this.progressBar_Update.Maximum = (int)TotalBytes;
-            //}
             label_Log.Text = $"{e.BytesReceived}/{e.TotalBytesToReceive}({e.ProgressPercentage}%)";
             COMMON.SetProgressValue(e.ProgressPercentage * 100);
         }

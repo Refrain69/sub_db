@@ -221,7 +221,7 @@ namespace sub_db
             {
                 FORMS.invoke(() =>
                 {
-                    append_log($"{LANGUAGES.txt(56)} {CONFIG.m_s_subs_path}",   // 找不到本地字幕路径
+                    append_log($"{LANGUAGES.txt(56)}:{CONFIG.m_s_subs_path}",   // 找不到本地字幕路径
                                 Color.Red);
                     lock_controls(true);
                 });

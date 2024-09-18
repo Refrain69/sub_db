@@ -38,7 +38,7 @@
             // 
             this.button_OK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button_OK.Location = new System.Drawing.Point(692, 84);
-            this.button_OK.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button_OK.Margin = new System.Windows.Forms.Padding(5);
             this.button_OK.Name = "button_OK";
             this.button_OK.Size = new System.Drawing.Size(137, 45);
             this.button_OK.TabIndex = 3;
@@ -52,14 +52,14 @@
             this.label_subs_path.Location = new System.Drawing.Point(22, 29);
             this.label_subs_path.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label_subs_path.Name = "label_subs_path";
-            this.label_subs_path.Size = new System.Drawing.Size(100, 24);
+            this.label_subs_path.Size = new System.Drawing.Size(136, 24);
             this.label_subs_path.TabIndex = 0;
-            this.label_subs_path.Text = "字幕路径：";
+            this.label_subs_path.Text = "本地字幕路径：";
             // 
             // textBox_subs_path
             // 
             this.textBox_subs_path.Location = new System.Drawing.Point(152, 24);
-            this.textBox_subs_path.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.textBox_subs_path.Margin = new System.Windows.Forms.Padding(5);
             this.textBox_subs_path.Name = "textBox_subs_path";
             this.textBox_subs_path.Size = new System.Drawing.Size(605, 31);
             this.textBox_subs_path.TabIndex = 1;
@@ -67,7 +67,7 @@
             // button_subs_path
             // 
             this.button_subs_path.Location = new System.Drawing.Point(772, 20);
-            this.button_subs_path.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button_subs_path.Margin = new System.Windows.Forms.Padding(5);
             this.button_subs_path.Name = "button_subs_path";
             this.button_subs_path.Size = new System.Drawing.Size(56, 45);
             this.button_subs_path.TabIndex = 2;
@@ -87,7 +87,7 @@
             this.Controls.Add(this.button_OK);
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frm_Setting";

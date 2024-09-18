@@ -63,6 +63,5 @@ namespace sub_db
             this.Close();
         }
         #endregion
-
     };
 }	// namespace sub_db

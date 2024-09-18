@@ -99,6 +99,7 @@
             // 
             // linkLabel_Modifier
             // 
+            this.linkLabel_Modifier.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.linkLabel_Modifier.AutoSize = true;
             this.linkLabel_Modifier.Location = new System.Drawing.Point(22, 708);
             this.linkLabel_Modifier.Name = "linkLabel_Modifier";
@@ -122,6 +123,7 @@
             this.Controls.Add(this.pictureBox_Icon);
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frm_About";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "关于 Subtitles DataBase";

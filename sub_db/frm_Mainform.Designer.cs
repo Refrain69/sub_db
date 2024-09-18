@@ -74,7 +74,7 @@
             this.dataGridView_Main.RowTemplate.Height = 23;
             this.dataGridView_Main.ShowCellToolTips = false;
             this.dataGridView_Main.ShowEditingIcon = false;
-            this.dataGridView_Main.Size = new System.Drawing.Size(1848, 1299);
+            this.dataGridView_Main.Size = new System.Drawing.Size(1848, 1314);
             this.dataGridView_Main.TabIndex = 4;
             this.dataGridView_Main.ColumnDisplayIndexChanged += new System.Windows.Forms.DataGridViewColumnEventHandler(this.DataGridView_Main_ColumnDisplayIndexChanged);
             this.dataGridView_Main.ColumnWidthChanged += new System.Windows.Forms.DataGridViewColumnEventHandler(this.DataGridView_Main_ColumnWidthChanged);
@@ -119,7 +119,7 @@
             this.toolStrip_Main.Location = new System.Drawing.Point(0, 0);
             this.toolStrip_Main.Name = "toolStrip_Main";
             this.toolStrip_Main.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.toolStrip_Main.Size = new System.Drawing.Size(1848, 38);
+            this.toolStrip_Main.Size = new System.Drawing.Size(1848, 33);
             this.toolStrip_Main.TabIndex = 0;
             this.toolStrip_Main.Text = "toolStrip1";
             // 

@@ -50,6 +50,10 @@ namespace sub_db
         {
             Process.Start(linkLabel_Website.Text);
         }
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(linkLabel_Modifier.Text);
+        }
 
         /*==============================================================
 		 * 确定
@@ -59,5 +63,6 @@ namespace sub_db
             this.Close();
         }
         #endregion
+
     };
 }	// namespace sub_db
